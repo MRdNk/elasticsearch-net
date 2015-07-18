@@ -212,7 +212,7 @@ So if all the terms are null (or empty string) on `userInput` except `userInput.
 
 If all of them are empty it will result in a `match_all` query. 
 
-This conditionless behavior is turned on by default but can be turned of like so:
+This conditionless behavior is turned on by default but can be turned off like so:
 
      var result = client.Search<ElasticSearchProject>(s=>s
         .From(0)
